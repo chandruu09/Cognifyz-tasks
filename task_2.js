@@ -18,7 +18,7 @@ if (currentHour < 12) {
 } else if (currentHour < 18) {
   greetingMessage = "Good afternoon!";
 } else {
-  greetingMessage = "Good evening!";
+  greetingMessage = "Good evening";
 }
 
 alert(greetingMessage);
